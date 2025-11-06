@@ -14,7 +14,7 @@ def main():
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     running = False
-            screen.fill("light green")
+            screen.fill("red")
             pygame.display.flip()
             clock.tick(60)
     finally:
